@@ -7,7 +7,7 @@ import { FrameworksPageComponent } from './components/frameworks-page/frameworks
 export const routes: Routes = [
     {path:'home', component:HomeComponent},
     {path:'backend', component:BackendPageComponent},   
-    {path: 'frontend', component:FrontendPageComponent},
+    {path: 'frontend', component:FrontendPageComponent},    
     {path: 'frameworks', component:FrameworksPageComponent},
     {path: '', redirectTo:'home', pathMatch:'full'},
     {path: '**', redirectTo:'home', pathMatch:'full'},

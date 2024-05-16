@@ -1,29 +1,27 @@
 <section class="flex flex-col justify-center w-full">
-  <main class="flex justify-center bg-neutral-600 mb-6">
-   
-      <div class="flex lg:flex-row sm:flex-col  lg:justify-evenly sm:justify-center bg-cyan-900 w-4/5">
+  <main class="flex justify-center bg-neutral-600 mb-6">   
+      <div class="flex lg:flex-row sm:flex-col flex-col lg:justify-evenly justify-center bg-cyan-900 w-4/5">
           <div class="flex flex-col items-center lg:p-12 sm:p-6 lg:w-1/2 animate-fade-up animate-once">
-            <h1 class="text-4xl text:center text-yellow-300 font-bold lg:mb-10 ">
+            <h1 class="lg:text-4xl text-3xl lg:text-left text-center text-yellow-300 font-bold lg:mb-10 ">
               TECNOLOGIAS DE DESARROLLO
             </h1>
-            <p class="text-xl text-neutral-200">
+            <p class="text-xl p-2 text-neutral-200">
               En el mundo digital, las tecnologías de desarrollo son fundamentales
               para crear sitios web y aplicaciones interactivas. Dos conceptos clave
               en este proceso son el frontend y el backend. Permíteme explicarte
               brevemente en qué consisten...
             </p>
           </div>
-          <picture class="flex sm:justify-center">
-              <img class="w-96 p-4 animate-fade-left" src="../assets/bg-home.jpeg" alt="" />
-          </picture>        
-        </div>
-  
+          <div class="flex justify-center">
+              <img class="lg:w-96  p-4 animate-fade-left" src="../assets/bg-home.jpeg" alt="" />
+          </div>        
+        </div>  
   </main>
 
 
 
-  <article class="lg:flex lg:flex-row sm:flex-col px-12 animate-fade-up">
-    <div class="p-4">
+  <article class="lg:flex lg:flex-row flex-col justify-evenly px-12 animate-fade-up">
+    <div class="basis-2/3 p-4">
         <h2 class="font-bold text-3xl text-cyan-900">FRONTEND</h2>
         <div class="w-full border-t-2 border-yellow-600"></div>
         <br>
@@ -41,17 +39,16 @@
           correctamente y de responder a las acciones del usuario, como hacer clic
           en un botón o desplazarse por la página.
         </p>
-
     </div>
-   
+    
+    <div class="flex justify-center">
       <img class="w-96 p-4" src="../assets/frontend.jpeg" alt="" />
-  
-  
+    </div>  
   </article>
-s
-  <article class="lg:flex lg:flex-row sm:flex-col-reverse px-12 animate-fade-up">
+
+  <article class="lg:flex lg:flex-row flex-col justify-evenly px-12 animate-fade-up">
    
-    <div class="p-4">
+    <div class="p-4 basis-2/3">
         <h2 class="font-bold text-rigth text-3xl text-cyan-900">BACKEND</h2>
         <div class="w-full border-t-2 border-yellow-600"></div>
         <br>
@@ -72,6 +69,9 @@ s
          Gestiona la seguridad del sitio.
         </p>
     </div>   
-    <img class="w-96 p-4" src="../assets/backend.jpeg" alt="" />  
+    <div class="flex  justify-center">
+      <img class="w-96 p-4" src="../assets/backend.jpeg" alt="" />  
+    </div>   
+   
   </article>
 </section>
