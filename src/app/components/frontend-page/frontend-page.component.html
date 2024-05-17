@@ -27,11 +27,11 @@
     <h2 class="text-3xl font-bold text-yellow-300 p-6">HTML</h2>
     <p>
       HTML es un lenguaje de marcado de hipertexto que se utipreza para
-      describir el contenido de una página web. Su primera version aparecion en <span>1991</span> y desde entonces a evoluvionado a versiones HTML 3.0, HTML 4.0, y la mas actuaprezada y aun en estado de evolucion HTMl 5
+      describir el contenido de una página web. Su primera version aparecion en <span>1991</span> y desde entonces a evoluvionado a versiones HTML 3.0, HTML 4.0, y la mas actualizada y aun en estado de evolucion HTMl 5
       Con HTML, puedes definir los elementos como encabezados, párrafos, imágenes, enlaces y formularios. Básicamente, HTML establece qué contenido se muestra en la página.
       <br/><br />
         <picture class="flex justify-center">
-            <img class="w-48" src="../assets/html.png" alt="">
+            <img class="w-48 drop-shadow-[0_45px_45px_rgba(241,101,41,0.5)]" src="../assets/html.png" alt="">
         </picture>
       
     </p>
@@ -55,7 +55,7 @@
     <p>
         Teniendo claro la estructura principal de un html, ahora hablaremeos de las etiquetas de contenido, es decir lo que queremos mostrar en nuestra página o aplicación, estas etiquetas se colocaran dentro de la etiqueta body, solo especificaremos algunas pero para obtener mas informacion de las etiquetas puedes ver toda la documentacion en <a class=" text-yellow-300  active" href="https://developer.mozilla.org/es/docs/Learn/HTML" target="_blank" S>https://developer.mozilla.org/es/docs/Learn/HTML</a>
         <br><br>
-        <span class="text-yellow-300">&lt;div&gt;</span>:Etiqueta contenedor de proposito general.
+        <span class="text-yellow-300">&lt;div&gt;</span>:Etiqueta contenedor de proposito general, no tiene un fin en especifico y se aconseja limitar su uso.
         <br><br>
         <span class="text-yellow-300">&lt;header&gt;</span>:Etiqueta contendeor para encabezado de la pagina.
         <br><br>
@@ -70,4 +70,53 @@
     </p> 
 
 </article>
+
+<!-- ARTICULO SOBRE CSS -->
+
+<article class="bg-neutral-200 p-12">
+  <h2 class="text-3xl font-bold text-cyan-600 p-6">CSS</h2>
+  <p>
+    CSS es un lenguaje de estilos en cascada que se utiliza para definir la presentación de los documentos HTML. Su primera version aparecion en <span>1996</span> y desde entonces a evoluvionado a versiones CSS 1, CSS 2 y la mas actualizada y aun en estado de evolucion CSS 3. El termino cascada basicamente nos da a entender que es importante el orden en que aplicamos los estilos. Se pueden aplicar directamente estilos desde nuestro archivo html utilizando la etiqueta <span class="text-cyan-600">&lt;stylel&gt;</span> dentro del <span class="text-cyan-600">&lt;head&gt;</span> tambien ubicando los estilos en linea dentro elemento mediante el atributo style="" ubicado en la etiqueta de apertura  del elemento y como  en un archivo independiente de extension .css para brindar mejor estructura en la arquitectura de nuestro proyecto.
+    <br/><br />
+      <picture class="flex justify-center">
+          <img class="w-48 drop-shadow-[0_45px_45px_rgba(0,255,255,0.5)]" src="../assets/css.png" alt="">
+      </picture>
+    
+  </p>
+
+  <h3 class="text-2xl font-semibold text-cyan-600 p-6">Anatomia de un selector CSS</h3>
+  <p>
+     <span class="text-cyan-600">h1</span> {{'{'}}
+      <br>
+     color: red;<br>{{'}'}}      
+     
+       <br><br>
+       <span class="text-cyan-600">h1</span> es el selector, color:red; es la propiedad y red; es el valor de la propiedad.
+     
+  </p>
+ 
+  <br><br>
+  <h3 class="text-2xl font-semibold text-cyan-600 p-6">Tipos de selectores en CSS</h3>
+  <p>
+       El selector en css basicamente nos ayuda a identificar el elemento al cual deseamos aplicar el estilos.
+       <br><br>
+       <span class="text-cyan-600">Selector universal * </span>: Aplica o define estilo para ciertas propiedades generales en todo nuestra pagina.
+       <br><br>
+       <span class="text-cyan-600">Selector de etiqueta </span>: Aplica o define estilo para ciertas etiquetas en todo nuestra pagina.
+       <br><br>
+       <span class="text-cyan-600">Selector de clase </span>: Aplica o define estilo para ciertas clases en todo nuestra pagina.La clase se define en la etiqueta de apertura html con el atributo class="". <span class="text-cyan-600">&lt;h1 class="titulo"&gt;</span>, el nombre de la clase pude utilizarse en varios elementos html por lo cual facilita aplicar el mismo estilo a distindos elementos sin tener que escribir muchas lineas dentro de nuetro css para cada uno por separado.
+       <br><br>
+       <span class="text-cyan-600">Selector de id </span>: Aplica o define estilo para un id en nuestra pagina.El id se define en la etiqueta de apertura html con el atributo id="". <span class="text-cyan-600">&lt;h1 class="titulo" id="principal"&gt;</span>, Cabe aclarar que el id es unico y solo se aplica a un solo elemento html.
+       <br><br>
+       <span class="text-cyan-600">Selector de atributo </span>: Aplica o define estilo para ciertas atributos en todo nuestra pagina. a[href="#"] selecciona todos los enlaces con el atributo href igual a #.
+  </p>
+
+  <br><br>
+  <h3 class="text-2xl font-semibold text-cyan-600 p-6">Estilos que puedes aplicar</h3>
+  <p>
+     CSS cuenta con una gran variedad de propiedades que puedes aplicar para que la pagina  o aplicacion sea atractiva para el usuario o cliente final,pude cambiar los tipos de fuentes de tu letra , los tamaños de contenedores y sus margenes , colores , animaciones,  realmente todo cabe en la imaginación, pudes obtener la guia completa de estilos accediendo a la documentacion oficial.
+  </p> 
+
+</article>
+
 
